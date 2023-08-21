@@ -1,0 +1,81 @@
+.homePage {
+  display: flex;
+  background-color: #fef6fb;
+}
+
+.womanCover {
+  background-image: url("../assets/homepage/woman.jpg");
+  width: 50%;
+  height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-right: 5px solid #fef6fb;
+  position: relative;
+  cursor: pointer;
+}
+
+.manCover {
+  background-image: url("../assets/homepage/man.jpg");
+  width: 50%;
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  cursor: pointer;
+}
+
+.linkDiv1 {
+  transform: rotate(-90deg);
+  background: none;
+  position: absolute;
+  top: 40%;
+}
+
+.linkDiv2 {
+  transform: rotate(90deg);
+  background: none;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+}
+
+.homePageLink {
+  background: none;
+  text-decoration: none;
+  font-size: 100px;
+  color: #3f2305;
+  font-weight: 800;
+  text-align: right;
+  padding: 10px;
+  opacity: 0.8;
+}
+.linkDiv1:hover {
+  transition: 0.2s;
+  border: 3px solid #3f2305;
+  border-radius: 10px;
+}
+
+.linkDiv2:hover {
+  transition: 0.2s;
+  border: 3px solid #3f2305;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .homePage {
+    flex-direction: column;
+  }
+  .womanCover,
+  .manCover {
+    width: 100%;
+    background-position: center;
+  }
+  .linkDiv1 {
+    left: 15%;
+  }
+  .linkDiv2 {
+    left: 30%;
+  }
+}

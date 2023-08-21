@@ -1,0 +1,111 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fef6fb;
+}
+.myCart {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+.emptyCart {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.startShopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+}
+.cartPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartProduct {
+  display: flex;
+  width: 90vw;
+  border: 1px solid grey;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+}
+.cartMedia {
+  display: flex;
+}
+.cartImage {
+  width: 150px;
+  height: 180px;
+}
+.cartInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 200px;
+}
+.itemTitle {
+  font-size: 30px;
+  border: 1px solid black;
+  width: max-content;
+  border-radius: 10px;
+}
+
+.cartQuantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+}
+.minusPlusButton {
+  width: 40px;
+  font-size: 30px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.removeButton {
+  font-size: 30px;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+.cartSummary {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 100px;
+  align-items: center;
+}
+.cartEnding {
+  display: flex;
+}
+.clearCart {
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  font-size: x-large;
+  color: red;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+.buyNow {
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  font-size: x-large;
+  color: green;
+  border: 1px solid grey;
+  border-radius: 20px;
+}

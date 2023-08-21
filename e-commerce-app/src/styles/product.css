@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.cardImage {
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+}
+.cardMedia {
+  display: flex;
+  position: relative;
+}
+.cardIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.cardButton {
+  width: 250px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #e4a5ff;
+  font-size: large;
+  cursor: pointer;
+}
