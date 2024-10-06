@@ -1,6 +1,9 @@
 # E-Commerce-App
 Shopoholic!
-Hi! You can start the project with npm run dev. Here is the home page of my project. There are men and women sections.
+This project is an e-commerce application built with React. It allows users to browse, search, and purchase products, offering a smooth and responsive user experience. The app integrates various features such as filtering, sorting, product details, a shopping cart, and secure checkout.
+
+
+Here is the home page of my project. There are men and women sections.
 ![WhatsApp Image 2023-09-07 at 12 20 35](https://github.com/basakcengiz/E-Commerce-App/assets/120058178/deb02da7-1836-4cf6-9f5f-a968fd230906)
 
 Displaying all women products in a featured sorted way.
